@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  align-items: center;
+
+  gap: 25px;
+ 
+  a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+
+    .logo {
+      height: 32px;
+    }
+  }
+
+  .title-group {
+    display: flex;
+    align-items: center;
+    
+    a {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 5px;
+    }
+  }
+}
